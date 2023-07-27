@@ -1,0 +1,28 @@
+{
+  "name": "pie3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/pie3d.cjs.js",
+  "module": "lib/pie3d.esm.js",
+  "browser": "lib/pie3d.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tweenjs/tween.js": "^21.0.0",
+    "camera-controls": "^2.7.0",
+    "d3": "^7.8.5",
+    "three": "^0.154.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^1.29.0"
+  },
+  "keywords": ["pie", "pie3d", "pie-3d"]
+}
