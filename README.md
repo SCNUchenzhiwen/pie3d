@@ -61,7 +61,7 @@ const data = [
 const container = pieContainer
 const options = { container }
 const pie3d = new Pie3d(options)
-const pie3d.updateData(data)
+pie3d.updateData(data)
 ```
 
 ## 截图
