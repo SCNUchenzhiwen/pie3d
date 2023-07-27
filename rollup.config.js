@@ -6,7 +6,7 @@ import terser from '@rollup/plugin-terser'
 export default [
 	// browser-friendly UMD build
 	{
-		input: 'core/Pie3D/Pie3d.js',
+		input: 'core/Pie3d/Pie3d.js',
 		output: {
 			name: 'Pie3d',
 			file: pkg.browser,
@@ -26,7 +26,7 @@ export default [
 	// an array for the `output` option, where we can specify
 	// `file` and `format` for each target)
 	{
-		input: 'core/Pie3D/Pie3d.js',
+		input: 'core/Pie3d/Pie3d.js',
 		output: [
 			{ file: pkg.main, format: 'cjs' },
 			{ file: pkg.module, format: 'es' }

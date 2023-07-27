@@ -6,6 +6,64 @@
 npm run build
 ```
 
+## 使用
+```js
+import Pie3d from './Pie3d/Pie3d'
+
+const data = [
+  {
+    value: 10,
+    label: 'label1',
+    explore: false
+  },
+  {
+    value: 13,
+    color: '#e4353c',
+    explore: false,
+    label: 'label2'
+  },
+  {
+    value: 20,
+    explore: true,
+    label: 'label3'
+  },
+  {
+    value: 0,
+    explore: true,
+    label: 'label4'
+  },
+  {
+    value: 1,
+    explore: false,
+    label: 'label5'
+  },
+  {
+    value: 4,
+    explore: false,
+    label: 'label6'
+  },
+  {
+    value: 4,
+    explore: false,
+    label: 'label7'
+  },
+  {
+    value: 4,
+    label: 'label8',
+    explore: false
+  },
+  {
+    value: 4,
+    label: 'label9',
+    explore: false
+  }
+]
+const container = pieContainer
+const options = { container }
+const pie3d = new Pie3d(options)
+const pie3d.updateData(data)
+```
+
 ## 截图
 ![](assets/images/pie_1.png)
 ![](assets/images/pie_2.png)

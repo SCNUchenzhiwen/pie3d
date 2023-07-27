@@ -99,7 +99,7 @@ const DEFAULT_LABEL_OPTIONS = {
 
 const TOOL_TIP_FORMAT = data => `${data.label}: ${data.value}`
 
-export default class Pie3D extends EventManager {
+export default class Pie3d extends EventManager {
   constructor(options = {}) {
     super()
     this.options = { ...DEFAULT_OPTIONS, controller: { ...DEFAULT_CONTROLLER_OPTIONS }, ...options }
