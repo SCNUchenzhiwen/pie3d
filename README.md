@@ -21,9 +21,9 @@ npm run build
 - [ ] visual map
 - [ ] 颜色优化
 
-<!-- ## 参考 -->
+## 参考
 
-<!-- * [react pie3d](https://github.com/rollup/rollup-starter-lib/tree/babel) -->
+* [react pie3d](https://github.com/pbeshai/3dpie)
 
 <!-- ## License -->
 
